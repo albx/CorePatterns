@@ -13,7 +13,7 @@ namespace CorePatterns.Domain
         /// </summary>
         /// <typeparam name="TAggregate">The aggregate's type</typeparam>
         /// <param name="model">The aggregate to add</param>
-        void Add<TAggregate>(TAggregate model) where TAggregate : AggregateRoot;
+        void Add<TAggregate>(TAggregate model) where TAggregate : IAggregateRoot;
 
         /// <summary>
         /// Get the aggregate by its key
@@ -21,7 +21,7 @@ namespace CorePatterns.Domain
         /// <typeparam name="TAggregate">The aggregate's type</typeparam>
         /// <param name="id">The id of the aggregate to find</param>
         /// <returns>The aggregate found</returns>
-        TAggregate GetByKey<TAggregate>(Guid id) where TAggregate : AggregateRoot;
+        TAggregate GetByKey<TAggregate>(Guid id) where TAggregate : IAggregateRoot;
 
         /// <summary>
         /// Get the aggregate by its key in an async way
@@ -29,7 +29,7 @@ namespace CorePatterns.Domain
         /// <typeparam name="TAggregate">The aggregate's type</typeparam>
         /// <param name="id">The id of the aggregate to find</param>
         /// <returns>The aggregate found</returns>
-        Task<TAggregate> GetByKeyAsync<TAggregate>(Guid id) where TAggregate : AggregateRoot;
+        Task<TAggregate> GetByKeyAsync<TAggregate>(Guid id) where TAggregate : IAggregateRoot;
 
         /// <summary>
         /// Save all the changes made

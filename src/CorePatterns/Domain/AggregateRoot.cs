@@ -7,7 +7,7 @@ namespace CorePatterns.Domain
     /// <summary>
     /// Represents an aggregate root
     /// </summary>
-    public abstract class AggregateRoot
+    public abstract class AggregateRoot : IAggregateRoot
     {
         protected ICollection<DomainEvent> _uncommittedEvents = new List<DomainEvent>();
 
