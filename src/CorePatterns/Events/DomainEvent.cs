@@ -13,13 +13,19 @@ namespace CorePatterns.Events
         public Guid AggregateId { get; }
 
         /// <summary>
+        /// Get the aggregate's type which raise the event
+        /// </summary>
+        public Type AggregateType { get; }
+
+        /// <summary>
         /// Get the date and time of when the event was fired
         /// </summary>
         public DateTime FiredOn { get; }
 
-        public DomainEvent(Guid aggregateId, DateTime firedOn)
+        public DomainEvent(Guid aggregateId, Type aggregateType, DateTime firedOn)
         {
             AggregateId = aggregateId;
+            AggregateType = aggregateType;
             FiredOn = firedOn;
         }
     }
