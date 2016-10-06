@@ -22,11 +22,11 @@ namespace CorePatterns.Events
         /// </summary>
         public DateTime FiredOn { get; }
 
-        public DomainEvent(Guid aggregateId, Type aggregateType, DateTime firedOn)
+        public DomainEvent(Guid aggregateId, Type aggregateType)
         {
             AggregateId = aggregateId;
             AggregateType = aggregateType;
-            FiredOn = firedOn;
+            FiredOn = DateTime.Now;
         }
     }
 }
