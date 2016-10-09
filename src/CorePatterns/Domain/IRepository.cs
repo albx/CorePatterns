@@ -6,7 +6,7 @@ namespace CorePatterns.Domain
     /// <summary>
     /// Represents a generic repository
     /// </summary>
-    public interface IRepository
+    public interface IRepository : IDisposable
     {
         /// <summary>
         /// Add the specified aggregate
