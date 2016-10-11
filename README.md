@@ -6,7 +6,7 @@ All this projects are built using **.NET Core**
 The CorePatterns project contains a list of infrastructure classes, such as AggregateRoot, Repository, Command and DomainEvent.
 
 ### Installation
-NuGet package is available here [https://www.nuget.org/packages/CorePatterns](http://example.com)
+NuGet package is available here [https://www.nuget.org/packages/CorePatterns](https://www.nuget.org/packages/CorePatterns)
 
 # License
 All the projects are under **MIT License**
