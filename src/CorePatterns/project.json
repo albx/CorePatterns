@@ -7,5 +7,15 @@
       "imports": "dnxcore50"
     }
   },
-  "version": "1.0.0-beta1"
+  "version": "1.0.0-beta1",
+  "packOptions": {
+    "licenseUrl": "https://github.com/albx/CorePatterns/blob/master/LICENSE",
+    "projectUrl": "https://github.com/albx/CorePatterns",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/albx/CorePatterns"
+    },
+    "tags": [".net core", ".net", "infrastructure", "opensource"],
+    "owners": ["Alberto Mori"]
+  }
 }
