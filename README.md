@@ -8,5 +8,9 @@ The CorePatterns project contains a list of infrastructure classes, such as Aggr
 ### Installation
 NuGet package is available here [https://www.nuget.org/packages/CorePatterns](https://www.nuget.org/packages/CorePatterns)
 
+## CorePatterns.AspNetCore
+This project contains the implementation of CommandBus and EventBus using .NET Core Dependency Injection.<br/>
+It provides the metods to register this implementation in an ASP.NET Core project.
+
 # License
 All the projects are under **MIT License**
