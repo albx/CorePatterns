@@ -4,7 +4,7 @@ using CorePatterns.Commands;
 using CorePatterns.Events;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CorePatterns.AspNetCore.Extensions
+namespace CorePatterns.AspNetCore
 {
     public static class ServiceCollectionExtensions
     {
