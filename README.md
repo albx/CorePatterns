@@ -12,5 +12,8 @@ NuGet package is available here [https://www.nuget.org/packages/CorePatterns](ht
 This project contains the implementation of CommandBus and EventBus using .NET Core Dependency Injection.<br/>
 It provides the metods to register this implementation in an ASP.NET Core project.
 
+### Installation
+NuGet package is available here [https://www.nuget.org/packages/CorePatterns.AspNetCore](https://www.nuget.org/packages/CorePatterns.AspNetCore)
+
 # License
 All the projects are under **MIT License**
