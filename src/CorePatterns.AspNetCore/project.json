@@ -1,0 +1,24 @@
+﻿{
+  "dependencies": {
+    "CorePatterns": "1.0.0-beta*",
+    "Microsoft.CSharp": "4.0.0",
+    "Microsoft.Extensions.DependencyInjection": "1.0.0",
+    "NETStandard.Library": "1.6.0"
+  },
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  },
+  "packOptions": {
+    "licenseUrl": "https://github.com/albx/CorePatterns/blob/master/LICENSE",
+    "projectUrl": "https://github.com/albx/CorePatterns",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/albx/CorePatterns"
+    },
+    "tags": [ ".net core", ".net", "aspnet core", "opensource" ],
+    "owners": [ "Alberto Mori" ]
+  },
+  "version": "1.0.0-beta1"
+}
