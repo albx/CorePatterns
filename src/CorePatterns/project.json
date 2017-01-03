@@ -7,7 +7,7 @@
       "imports": "dnxcore50"
     }
   },
-  "version": "1.0.0-beta1",
+  "version": "1.0.0-beta2",
   "packOptions": {
     "licenseUrl": "https://github.com/albx/CorePatterns/blob/master/LICENSE",
     "projectUrl": "https://github.com/albx/CorePatterns",
