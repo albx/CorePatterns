@@ -1,6 +1,6 @@
 ﻿{
   "dependencies": {
-    "CorePatterns": "1.0.0-beta*",
+    "CorePatterns": "1.0.0-beta2",
     "Microsoft.CSharp": "4.0.0",
     "Microsoft.Extensions.DependencyInjection": "1.0.0",
     "NETStandard.Library": "1.6.0"
@@ -20,5 +20,5 @@
     "tags": [ ".net core", ".net", "aspnet core", "opensource" ],
     "owners": [ "Alberto Mori" ]
   },
-  "version": "1.0.0-beta1"
+  "version": "1.0.0-beta2"
 }
